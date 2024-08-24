@@ -1,0 +1,44 @@
+<html>
+
+<head></head>
+
+<body>
+    <center>
+    <div class="text-center">
+        <a href="/" class="btn btn-outline-primary pull-right" role="button" aria-pressed="true"> Kembali</a>
+        <a href="/case" class="btn btn-outline-success" role="button" aria-pressed="true">Prediksi Jumlah Kasus »</a>
+        <footer class="my-4 text-muted text-center text-small"></footer>
+    </div>
+    <div class="testbox">
+        <form method="POST" action="cost/predict">
+            <div class="banner">
+                <h1>Cost Prediction</h1>
+            </div>
+            <br />
+            <form action="/action_page.php">
+                <label for="kddati2">kddati2:</label><br>
+                <input type="text" id="kddati2" name="kddati2" value=""><br>
+                <label for="tkp">tkp:</label><br>
+                <input type="text" id="tkp" name="tkp" value=""><br><br>
+                <label for="peserta">peserta:</label><br>
+                <input type="text" id="peserta" name="peserta" value=""><br><br>
+                <label for="tipe_gabungan">tipe_gabungan:</label><br>
+                <input type="text" id="tipe_gabungan" name="tipe_gabungan" value=""><br><br>
+                <input type="submit" value="Submit" style="background-color: #006622; color: #fff;">
+              </form> 
+        
+            <div class="col-4">
+                <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Hasil Prediksi: </div>
+                    <div class="card-body">
+        
+                        <p class="card-text"></p>
+                    </center>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
